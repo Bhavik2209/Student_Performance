@@ -3,7 +3,7 @@ import pickle
 import pandas as pd
 
 import streamlit as st 
-pickle_in = open(r"C:\Users\SVI\Desktop\ML_learn\multiple_linear_reg\project\students\reg.pkl","rb")
+pickle_in = open("reg.pkl","rb")
 reg=pickle.load(pickle_in)
 
 def welcome():
